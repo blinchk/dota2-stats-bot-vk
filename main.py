@@ -1,7 +1,4 @@
-# Импортируем созданный нами класс Server
 from server import Server
-
-
-server1 = Server("107773303d157f7c92daa25280624c11aca1be2ba96fbc69feba48fe8ccb0ec73e3b01472a7b05e83d76c", 196102690)
-
+server1 = Server("0ae3e2ecefc6efd06d27fa20b0a35ecff64c40fd9af4494d11939f981f2a274288112f3542e454695ba00", 196102690)
 server1.test()
+server1.start()
